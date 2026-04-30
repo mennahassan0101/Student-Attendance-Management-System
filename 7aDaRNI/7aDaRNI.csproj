@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+	  <TargetFramework>net48</TargetFramework>
+	  <LangVersion>latest</LangVersion>
+ 
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>7aDaRNI</AssemblyName>
+    <RootNamespace>_7aDaRNI</RootNamespace>
+    <StartupObject>_7aDaRNI.Program</StartupObject>
+    <ReferencePath>C:\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win64_x64\dotnet\</ReferencePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Oracle.ManagedDataAccess" Version="23.26.200" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{c0c07587-41a7-46c8-8fbd-3f9c8ebe2ddc}" />
+  </ItemGroup>
+</Project>
